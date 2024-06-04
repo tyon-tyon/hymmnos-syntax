@@ -5,64 +5,304 @@
   "name": "Hymmnos",
   "patterns": [
     {
-      "name": "keyword.hymmnos.central_standard",
+      "name": "comment.line.double-slash",
+      "match": "comment.line.double-slash"
+    },
+    {
+      "name": "comment.line.double-dash",
+      "match": "comment.line.double-dash"
+    },
+    {
+      "name": "comment.line.number-sign",
+      "match": "comment.line.number-sign"
+    },
+    {
+      "name": "comment.line.percentage",
+      "match": "comment.line.percentage"
+    },
+    {
+      "name": "comment.line.character",
+      "match": "comment.line.character"
+    },
+    {
+      "name": "comment.block",
+      "match": "comment.block"
+    },
+    {
+      "name": "comment.block.documentation",
+      "match": "comment.block.documentation"
+    },
+    {
+      "name": "constant.numeric",
+      "match": "constant.numeric"
+    },
+    {
+      "name": "constant.character",
+      "match": "constant.character"
+    },
+    {
+      "name": "constant.character.escape",
+      "match": "constant.character.escape"
+    },
+    {
+      "name": "constant.language",
+      "match": "constant.language"
+    },
+    {
+      "name": "constant.other",
+      "match": "constant.other"
+    },
+    {
+      "name": "entity.name.function",
+      "match": "entity.name.function"
+    },
+    {
+      "name": "entity.name.type",
+      "match": "entity.name.type"
+    },
+    {
+      "name": "entity.name.tag",
+      "match": "entity.name.tag"
+    },
+    {
+      "name": "entity.name.section",
+      "match": "entity.name.section"
+    },
+    {
+      "name": "entity.other",
+      "match": "entity.other"
+    },
+    {
+      "name": "entity.other.inherited-class",
+      "match": "entity.other.inherited-class"
+    },
+    {
+      "name": "entity.other.attribute-name",
+      "match": "entity.other.attribute-name"
+    },
+    {
+      "name": "invalid.illegal",
+      "match": "invalid.illegal"
+    },
+    {
+      "name": "invalid.deprecated",
+      "match": "invalid.deprecated"
+    },
+    {
+      "name": "keyword.control",
+      "match": "keyword.control"
+    },
+    {
+      "name": "keyword.operator",
+      "match": "keyword.operator"
+    },
+    {
+      "name": "keyword.other",
+      "match": "keyword.other"
+    },
+    {
+      "name": "markup.underline",
+      "match": "markup.underline"
+    },
+    {
+      "name": "markup.underline.link",
+      "match": "markup.underline.link"
+    },
+    {
+      "name": "markup.bold",
+      "match": "markup.bold"
+    },
+    {
+      "name": "markup.heading",
+      "match": "markup.heading"
+    },
+    {
+      "name": "markup.italic",
+      "match": "markup.italic"
+    },
+    {
+      "name": "markup.list",
+      "match": "markup.list"
+    },
+    {
+      "name": "markup.list.numbered",
+      "match": "markup.list.numbered"
+    },
+    {
+      "name": "markup.list.unnumbered",
+      "match": "markup.list.unnumbered"
+    },
+    {
+      "name": "markup.quote",
+      "match": "markup.quote"
+    },
+    {
+      "name": "markup.raw",
+      "match": "markup.raw"
+    },
+    {
+      "name": "markup.other",
+      "match": "markup.other"
+    },
+    {
+      "name": "meta",
+      "match": "meta"
+    },
+    {
+      "name": "storage.type",
+      "match": "storage.type"
+    },
+    {
+      "name": "storage.modifier",
+      "match": "storage.modifier"
+    },
+    {
+      "name": "string.quoted.single",
+      "match": "string.quoted.single"
+    },
+    {
+      "name": "string.quoted.double",
+      "match": "string.quoted.double"
+    },
+    {
+      "name": "string.quoted.triple",
+      "match": "string.quoted.triple"
+    },
+    {
+      "name": "string.quoted.other",
+      "match": "string.quoted.other"
+    },
+    {
+      "name": "string.unquoted",
+      "match": "string.unquoted"
+    },
+    {
+      "name": "string.interpolated",
+      "match": "string.interpolated"
+    },
+    {
+      "name": "string.regexp",
+      "match": "string.regexp"
+    },
+    {
+      "name": "string.other",
+      "match": "string.other"
+    },
+    {
+      "name": "support.function",
+      "match": "support.function"
+    },
+    {
+      "name": "support.class",
+      "match": "support.class"
+    },
+    {
+      "name": "support.type",
+      "match": "support.type"
+    },
+    {
+      "name": "support.constant",
+      "match": "support.constant"
+    },
+    {
+      "name": "support.variable",
+      "match": "support.variable"
+    },
+    {
+      "name": "support.other",
+      "match": "support.other"
+    },
+    {
+      "name": "variable.parameter",
+      "match": "variable.parameter"
+    },
+    {
+      "name": "variable.language",
+      "match": "variable.language"
+    },
+    {
+      "name": "variable.other",
+      "match": "variable.other"
+    },
+    {
+      "description": "hymmnos.central_standard",
+      "name": "string.regexp",
       "match": "(?i)\\b(Harmonius|Linca|Paja|Re=Nation|Suspend|Rrha|Was|Wee|Fou|Ma|Nn|granme|guwo|i|jyel|ki|num|paks|quel|touwaka|wol|yea|zweie|erra|ra|wa|ga|gaya|accrroad|acra|adyya|afezeria|aiph|akata|an|ar|arrya|arsye|art|aulla|bale|bansh|basilic|bautifal|beng|bengnuih|bexm|biron|bister|boches|brinch|burle|cecet|celetille|celle|cerchio|cest|cexm|chanti|chiess|chs|chsee|ciel|ciellenne|clalliss|clamour|clare|clemezen|colga|cupla|cyuie|cyurio|dand|dauan|dauane|deggeez|den|denera|dia|dilete|discest|dople|dor|dorn|drone|dsier|dyya|dyyal|eazas|echrra|eetor|elle|en|enegd|engassya|enne|enter|enw|et|eta|eux|exec|famfa|fane|fatere|fayra|fedyya|fhyu|flare|fluy|fogabe|folten|fountaina|fowrlle|frawr|frissoner|ftt|fulual|fusya|futare|ganna|garlden|gat|geeow|getrra|gigeadeth|gool|gott|grlanza|grrena|grruw|guard|guatrz|guaysu|guol|gyaje|gyas|gyuss|gyusya|haf|handeres|hao|harmon|harr|harra|hars|harton|has|hasyu|heath|heetha|her|here|herr|herra|hers|hes|hieg|houd|hueaf|hyear|hyma|hymma|hymme|hymmne|hymmnos|hynne|ides|idesy|ieeya|irs|jam|jambea|jass|jouee|keen|keenis|khal|kil|knawa|kneet|koora|kuhle|la|lasye|leat|li|llizz|mahin|maxim|mea|mean|memora|meo|merra|meso|messe|morto|na|near|neee|neia|nepo|netvear|nezz|nille|nnoini|noes|noglle|nozess|nuih|nx|oriye|orviclle|oure|oz|pagle|pak|parce|pecee|phyue|pic|pipel|plina|pomb|pono|porter|prasrity|quen|quesa|race|rana|rannef|rasse|re|reen|repoear|reveris|revm|rhashe|rippllys|rivire|rol|rosa|rre|rudje|ruinie|sa|saash|sabl|sallogna|sanctum|sara|sarrifis|sasye|shazra|shen|sial|sielp|slep|sor|sos|sosar|spiritum|spitze|stel|stelled|swant|syast|synk|tanta|tarfe|tek|tes|teyys|ther|tictim|tou|unloee|urr|valwa|vinan|vine|viss|vonn|waath|waats|wael|walaka|warce|ware|warma|wart|wasara|we|weak|weel|ween|whai|wharn|whou|wi|willie|wim|won|xl|yaha|yanje|yanwe|yart|yaserwe|yassa|yatse|yehah|yetere|yor|yora|yorr|yorra|yos|yosyua|yuez|yura|zarle|zash|zassyen|zeeth|zenva|zethpa|zwihander|\\>\\>)\\b"
     },
     {
-      "name": "keyword.hymmnos.cult_ciel",
+      "description": "hymmnos.cult_ciel",
+      "name": "entity.name.type",
       "match": "(?i)\\b(apea|nyasri|ammue|beja|chyet|clyncye|deata|degle|didalia|dius|diviega|dornpica|ene|enerel|enesse|enrer|faf|faja|fernia|flip|forgandal|forlindel|forlinden|foul|frawrle|fwal|fwillra|gatyunla|gatyuny|got|govaz|gran|grave|gyajlee|gyen|gyenel|gyengyat|hartes|hopb|iasien|ini|innna|jenge|jenhah|kapa|ks|lapo|lequera|linen|lirle|lof|lyafre|manac|manafaln|maun|maya|melenas|melvaz|naja|neen|nene|nha|noce|nooge|nosaash|pakz|papana|parge|parith|pat|paul|phiz|pilt|pitod|polon|prooth|ptrapica|ptrapile|quivale|quive|quowjaz|raklya|rete|ryusse|savath|sheak|sik|skit|syec|syunaht|titil|titilia|ugi|uteu|vit|walaen|walasye|walphish|wase|wassa|watt|xest|yeal|yeeel|zahha|zauve|zetsfy)\\b"
     },
     {
-      "name": "keyword.hymmnos.metafalss",
+      "description": "hymmnos.metafalss",
+      "name": "variable",
       "match": "(?i)\\b(Metafalica|Rig=Veda|Maoh|Rhaplanca|waa|yant|gagis|alroetsue|anw|boh|briyante|cause|cenjue|crannidale|crudea|crushue|der|desfel|dhezeall|diasee|ee|enclone|endia|etealune|fandel|fatele|fau|faura|ferda|firle|gauzewiga|glasden|grandee|grandus|heighte|hierle|iem|infel|inferiare|kiafa|kierre|lamenza|leaff|lurrea|lusye|manaf|manafeeze|marta|melifan|murfan|murfanare|omnis|pauwee|pauwel|phira|pirtue|presia|revatail|ridalnae|rifaien|salavec|sarla|selena|shellan|slepir|sol|sonwe|sphilar|tasyue|van|varda|vianchiel|viega|wearequewie|werllra|werlwe|wis|yanyaue|yasra|yehar|yerwe|zadius|zodal|zodaw)\\b"
     },
     {
-      "name": "keyword.hymmnos.alpha",
+      "description": "hymmnos.alpha",
+      "name": "keyword.control",
       "match": "(?i)\\b(Chronicle=Key|Phantasmagoria|au|deleir|delij|eterne|hyzik|lir|mekemekepon|nedle|ousye|sar|zuieg)\\b"
     },
     {
-      "name": "keyword.hymmnos.cluster",
+      "description": "hymmnos.cluster",
+      "name": "keyword.control",
       "match": "(?i)\\b(riomo|xe)\\b"
     },
     {
-      "name": "keyword.hymmnos.pastalie",
+      "description": "hymmnos.pastalie",
+      "name": "support.function",
       "match": "(?i)\\b(ag|aje|ale|arhou|ayulsa|balduo|ceku|cia|daedu|dejuy|dn|doodu|du|eje|elye|ess|fs|gasar|gkgul|glansee|goa|gral|harphe|hiew|hiewi|iwl|kajya|keg|kouf|lyuma|maen|meryu|naave|nafa|nafan|naflansee|olo|oucc|ouvyu|ouwua|pikca|pipit|poe|pop|pupe|qejyu|qraffa|raudl|rawah|reta|ryewa|sarr|sarsa|sechel|sefanl|sev|siance|siann|sphaela|talam|tapa|targue|tie|titia|ttu|tussu|tyui|ujes|urgn|ut|vega|vege|zalez|zess|zz)\\b"
     },
     {
-      "name": "keyword.hymmnos.pastalie_command",
+      "description": "hymmnos.pastalie_command",
+      "name": "support.function",
       "match": "\\b<\\-x"
     },
     {
-      "name": "keyword.hymmnos.pastalie_verbs",
+      "description": "hymmnos.pastalie_verbs",
+      "name": "support.function",
       "match": "(\\ba\\.u\\.k\\.|\\bc\\.z\\.|\\bd\\.n\\.|\\bd\\.z\\.|\\bf\\.r\\.l\\.|\\bf\\.s\\.|\\bf\\.w\\.r|\\bf\\.w\\.r\\.n|\\bg\\.k\\.n|\\bg\\.w\\.f\\.r\\.|\\bh\\.k\\.t\\.t|\\bh\\.l\\.s\\.s\\.|\\bh\\.m\\.m\\.r\\.|\\bh\\.p\\.p|\\bh\\.p\\.ps\\.|\\bh\\.r\\.n\\.t\\.|\\bh\\.w\\.s\\.s\\.|\\bj\\.l\\.j\\.|\\bj\\.l\\.r\\.|\\bj\\.w\\.|\\bj\\.z\\.t\\.|\\bk\\.r\\.|\\bk\\.v\\.n\\.r\\.|\\bl\\.l\\.n\\.|\\bl\\.n\\.c\\.a\\.|\\bm\\.a\\.m\\.|\\bm\\.n\\.g\\.|\\bm\\.t\\.y\\.y\\.|\\bn\\.m\\.l\\.|\\bp\\.s\\.w\\.t\\.|\\br\\.f\\.m|\\br\\.f\\.r\\.m|\\br\\.w\\.|\\bs\\.l|\\bs\\.n\\.k\\.k\\.|\\bs\\.s\\.w\\.|\\bt\\.k\\.d\\.|\\bt\\.n\\.|\\bt\\.n\\.m\\.n|\\bt\\.r\\.m|\\bv\\.a|\\bv\\.s\\.k|\\bv\\.t|\\bw\\.f\\.|\\bw\\.h\\.h\\.|\\bw\\.n\\.s|\\bw\\.r\\.l|\\bw\\.r\\.m\\.|\\bw\\.s\\.|\\bw\\.w\\.j\\.n\\.c\\.|\\bx\\.|\\by\\.m\\.q\\.|\\by\\.y\\.|\\by\\.z\\.t\\.|\\bz\\.z\\.x\\.)"
     },
     {
-      "name": "keyword.hymmnos.pastalie_possessive",
+      "description": "hymmnos.pastalie_possessive",
+      "name": "support.function",
       "match": "\\b((LY|Y)?([AIUEON]))(ag|aje|ale|arhou|ayulsa|balduo|ceku|cia|daedu|dejuy|dn|doodu|du|eje|elye|ess|fs|gasar|gkgul|glansee|goa|gral|harphe|hiew|hiewi|iwl|kajya|keg|kouf|lyuma|maen|meryu|naave|nafa|nafan|naflansee|olo|oucc|ouvyu|ouwua|pikca|pipit|poe|pop|pupe|qejyu|qraffa|raudl|rawah|reta|ryewa|sarr|sarsa|sechel|sefanl|sev|siance|siann|sphaela|talam|tapa|targue|tie|titia|ttu|tussu|tyui|ujes|urgn|ut|vega|vege|zalez|zess|zz)\\b"
     },
     {
-      "name": "keyword.hymmnos.pastalie_emotion_verbs",
+      "description": "hymmnos.pastalie_emotion_verbs",
+      "name": "support.function",
       "match": "\\b((a((LY|Y)?([AIUEON]))?u((LY|Y)?([AIUEON]))?k((LY|Y)?([AIUEON]))?|c((LY|Y)?([AIUEON]))?z((LY|Y)?([AIUEON]))?|d((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?|d((LY|Y)?([AIUEON]))?z((LY|Y)?([AIUEON]))?|f((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?l((LY|Y)?([AIUEON]))?|f((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?|f((LY|Y)?([AIUEON]))?w((LY|Y)?([AIUEON]))?r|f((LY|Y)?([AIUEON]))?w((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?n|g((LY|Y)?([AIUEON]))?k((LY|Y)?([AIUEON]))?n|g((LY|Y)?([AIUEON]))?w((LY|Y)?([AIUEON]))?f((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?|h((LY|Y)?([AIUEON]))?k((LY|Y)?([AIUEON]))?t((LY|Y)?([AIUEON]))?t|h((LY|Y)?([AIUEON]))?l((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?|h((LY|Y)?([AIUEON]))?m((LY|Y)?([AIUEON]))?m((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?|h((LY|Y)?([AIUEON]))?p((LY|Y)?([AIUEON]))?p|h((LY|Y)?([AIUEON]))?p((LY|Y)?([AIUEON]))?ps((LY|Y)?([AIUEON]))?|h((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?t((LY|Y)?([AIUEON]))?|h((LY|Y)?([AIUEON]))?w((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?|j((LY|Y)?([AIUEON]))?l((LY|Y)?([AIUEON]))?j((LY|Y)?([AIUEON]))?|j((LY|Y)?([AIUEON]))?l((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?|j((LY|Y)?([AIUEON]))?w((LY|Y)?([AIUEON]))?|j((LY|Y)?([AIUEON]))?z((LY|Y)?([AIUEON]))?t((LY|Y)?([AIUEON]))?|k((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?|k((LY|Y)?([AIUEON]))?v((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?|l((LY|Y)?([AIUEON]))?l((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?|l((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?c((LY|Y)?([AIUEON]))?a((LY|Y)?([AIUEON]))?|m((LY|Y)?([AIUEON]))?a((LY|Y)?([AIUEON]))?m((LY|Y)?([AIUEON]))?|m((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?g((LY|Y)?([AIUEON]))?|m((LY|Y)?([AIUEON]))?t((LY|Y)?([AIUEON]))?y((LY|Y)?([AIUEON]))?y((LY|Y)?([AIUEON]))?|n((LY|Y)?([AIUEON]))?m((LY|Y)?([AIUEON]))?l((LY|Y)?([AIUEON]))?|p((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?w((LY|Y)?([AIUEON]))?t((LY|Y)?([AIUEON]))?|r((LY|Y)?([AIUEON]))?f((LY|Y)?([AIUEON]))?m|r((LY|Y)?([AIUEON]))?f((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?m|r((LY|Y)?([AIUEON]))?w((LY|Y)?([AIUEON]))?|s((LY|Y)?([AIUEON]))?l|s((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?k((LY|Y)?([AIUEON]))?k((LY|Y)?([AIUEON]))?|s((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?w((LY|Y)?([AIUEON]))?|t((LY|Y)?([AIUEON]))?k((LY|Y)?([AIUEON]))?d((LY|Y)?([AIUEON]))?|t((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?|t((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?m((LY|Y)?([AIUEON]))?n|t((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?m|v((LY|Y)?([AIUEON]))?a|v((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?k|v((LY|Y)?([AIUEON]))?t|w((LY|Y)?([AIUEON]))?f((LY|Y)?([AIUEON]))?|w((LY|Y)?([AIUEON]))?h((LY|Y)?([AIUEON]))?h((LY|Y)?([AIUEON]))?|w((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?s|w((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?l|w((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?m((LY|Y)?([AIUEON]))?|w((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?|w((LY|Y)?([AIUEON]))?w((LY|Y)?([AIUEON]))?j((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?c((LY|Y)?([AIUEON]))?|x((LY|Y)?([AIUEON]))?|y((LY|Y)?([AIUEON]))?m((LY|Y)?([AIUEON]))?q((LY|Y)?([AIUEON]))?|y((LY|Y)?([AIUEON]))?y((LY|Y)?([AIUEON]))?|y((LY|Y)?([AIUEON]))?z((LY|Y)?([AIUEON]))?t((LY|Y)?([AIUEON]))?|z((LY|Y)?([AIUEON]))?z((LY|Y)?([AIUEON]))?x((LY|Y)?([AIUEON]))?)(eh|aye|za)?)\\b"
     },
     {
-      "name": "keyword.hymmnos.unknown",
+      "description": "hymmnos.unknown",
+      "name": "comment.line.double-slash",
       "match": "(?i)\\b(EXA_PICO|Ar_Ru|Alternation|Classend|Cosmoflips|Despedia|Dishadow|Ep=Nova|Implanta|Haibanation|Metempsychosis|Nearzenva|Nullascension|Rebirthia=Protocol|Replekia|Seed|Sublimation|Sol=Fage|Soporifique|Vanisland|Viena|Visiondance|Z|extracting|Fyusion|Eolia|Frelia|Tilia|Orica|Misya|Mule|Luca|Chroche|Cocona|Nenesya|Sonia|Sakia|Finnel|Akane|Rikkaryosya|Mute|Horus|Juklizda|Clyuue|Soreile|Listea|Shelanoir|Deijya|Lere|Saki|Salapator|Soma|Sasya|Hymmnosphere|Filament|Yurishica|Sieryek|Liarsha|AR=TONELICO|INFEL=PHIRA|EL=DUEL|EL=NEMESYS|META=FALSS|SOL=CLUSTER|SOL=MARTA|SOLIN=FALSS|pepen|nyamo|Harvestasya|Myu|hellei|lau|zeez|ad|add|adeal|agan|agga|agldeio|ahjeas|alefio|alroen|alroetyye|amariare|amario|amyure|annie|answa|anturn|araus|arka|asyar|aterra|ates|azit|azl|badoe|bnas|boia|briyua|byui|caan|calamila|ciela|cietta|coall|col|colgen|colmask|coree|corle|corpu|cremia|crown|daf|dahzel|dazua|dea|deadl|dend|dep|dest|deu|dewee|dgal|dha|dialssa|diol|dje|dngle|donaty|dorna|dorre|dorzee|dralee|dyldea|earyq|ede|ekouolga|elna|engua|enllia|ennala|ennalte|envied|eodeal|erlla|erphy|es|esyfo|etealuear|ettdy|ewle|exali|faiy|falfa|fanalea|fao|fari|fatee|fee|ferxs|fetala|fhau|fhauri|firanzia|firga|fitouva|focs|frreie|fujara|fuluaa|fyatomes|gaedurltea|galado|galido|gaunji|gauto|gauv|gefdu|gfine|gfawi|gidiu|giue|giz|gkgula|govan|grandi|grow|grruwa|gyaeje|gyaya|hagol|haliyer|halun|haoud|heathe|hegta|henderos|herea|hiegle|hiral|hiralg|how|hymneth|hyung|iemma|im|infelious|inferia|iqwayes|irdeshen|irea|jastil|jefea|jekur|jenega|jepgle|jesta|json|jue|juelicc|kailya|karf|katalfa|kearryier|kiala|kieghl|kieta|kira|kirrag|kix|kl|koffl|kohiniku|konla|ksyura|kurt|kvvia|kvyeire|kyakkya|kyll|laa|lamenzeo|lasnatine|lautyca|layy|lea|lehaw|lgn|lhasya|liera|lonfa|longhel|longherna|lornya|loss|lulurnya|lyrnya|marfo|marst|meaql|merfa|metafalya|meycray|milra|mirie|missea|mortoa|moy|mutrk|naa|nanarta|nasya|ne|nel|nepsogre|neyxin|nhaf|nnoi|noese|noyme|nor|nuboisu|numori|nun|nyamonyas|nyanyas|nyasyamorina|ocurp|ogbl|olga|omga|omn|omness|omni|odda|ordirga|orn|oter|oylnum|papas|papulipua|parlre|pasherin|pastalia|pauwoo|pawr|pbidia|pisful|piterne|plargamera|polona|poto|pranta|pruna|pshyu|pyuf|qafl|qoga|quale|quals|qvag|qwitte|qym|qyon|rafto|ragym|redjena|reglle|retera|rifaiah|rinc|rinnoze|riura|riya|roon|rooshellan|rovyna|rriulia|ru|ruinien|rum|ryua|ryushe|saade|sacra|sapon|sarryfy|sash|sashel|senjue|sephaje|sguela|sheaken|shefra|shell|shelle|shutdown|shyfac|shyun|siancesta|sii|siss|slepial|so|soare|sorr|sorra|sorrc|spaha|ssvid|stellod|stelo|swantes|syalea|syana|syeary|syearr|syezo|tafane|takii|talfato|tasim|tatakafria|tea|terrfa|terrma|tienar|tilanta|tim|tn|toe|tonelico|tota|toya|trina|trix|ture|twor|tyuss|ubiestobo|ubitio|ubititoe|uje|urdm|urnaa|urrmie|utabi|vaffa|vale|vallne|vamue|vancck|velsog|vew|vezedo|vie|viela|vigiga|viuy|vl|vurumely|waglialre|wasa|wassee|wazx|weaken|weareqye|wefa|wet|whalt|wiaa|wiene|wirtamarls|woth|xactin|xaczor|xava|xevxl|xthos|xorg|yeharr|yesse|yestidi|ylviiyna|yubene|yulun|yurfe|zaarn|zaffur|zahia|zarnn|zas|zayea|zayyo|xinfar|zixxa|zzx)\\b"
     },
     {
-      "name": "keyword.hymmnos.unknown_command",
-      "match": "(\\b\\=\\>|\\b\\-\\>|\\bXc=|\\b0x|\\b1x|\\b2x|\\bvvi|\\bAAs|\\bixi|\\bchmod|\\bD_CELL|\\bSH|\\bHALT|\\bDIA|\\bANSUL|\\bFEHU|\\bTEIWAZ)\\b"
+      "description": "hymmnos.unknown_command",
+      "name": "comment.line.double-slash",
+      "match": "(\\b\\=\\>|\\b\\-\\>|\\bXc\\=|\\b0x|\\b1x|\\b2x|\\bvvi|\\bAAs|\\bixi|\\bchmod|\\bD_CELL|\\bSH|\\bHALT|\\bDIA|\\bANSUL|\\bFEHU|\\bTEIWAZ)\\b"
     },
     {
-      "name": "keyword.hymmnos.unknown_pastalie_verbs",
+      "description": "hymmnos.unknown_pastalie_verbs",
+      "name": "string.quoted.single",
       "match": "(\\bb\\.a\\.|\\bb\\.s\\.|\\bc\\.m\\.l\\.|\\bd\\.n\\.g\\.|\\bd\\.r\\.s\\.n\\.|\\bd\\.s\\.s\\.n\\.|\\bd\\.x\\.|\\bf\\.p\\.n\\.|\\bg\\.n\\.g\\.|\\bg\\.v\\.w\\.|\\bg\\.w\\.n\\.|\\bj\\.d\\.r\\.|\\bk\\.f\\.k\\.k\\.|\\bk\\.i\\.|\\bk\\.t\\.n\\.|\\bk\\.v\\.r\\.|\\bl\\.k\\.k\\.|\\bl\\.l\\.d\\.|\\bl\\.r\\.w\\.|\\bm\\.f\\.l\\.|\\bm\\.r\\.|\\bm\\.r\\.r\\.|\\bm\\.v\\.y\\.n\\.|\\bm\\.y\\.b\\.|\\bn\\.d\\.n\\.|\\bn\\.e\\.g\\.|\\bn\\.i\\.|\\bn\\.t\\.n\\.|\\bn\\.y\\.g\\.t\\.|\\bn\\.y\\.k\\.|\\bq\\.g\\.s\\.|\\bq\\.l\\.s\\.|\\br\\.l\\.t\\.y\\.|\\bs\\.a\\.|\\bs\\.l\\.y\\.|\\bs\\.n\\.s\\.|\\bt\\.h\\.s\\.|\\bt\\.h\\.k\\.t\\.|\\bw\\.r\\.g\\.|\\bw\\.s\\.r\\.|\\bw\\.s\\.s\\.|\\bx\\.nohul|\\bx\\.v|\\bx\\.y\\.n\\.|\\by\\.g\\.l|\\by\\.g\\.r\\.r\\.|\\bz\\.w\\.d\\.)"
     },
     {
-      "name": "keyword.hymmnos.unknown_pastalie_possessive",
+      "description": "hymmnos.unknown_pastalie_possessive",
+      "name": "string.quoted.single",
       "match": "\\b((LY|Y)?([AIUEON]))(EXA_PICO|Ar_Ru|Alternation|Classend|Cosmoflips|Despedia|Dishadow|Ep=Nova|Implanta|Haibanation|Metempsychosis|Nearzenva|Nullascension|Rebirthia=Protocol|Replekia|Seed|Sublimation|Sol=Fage|Soporifique|Vanisland|Viena|Visiondance|Z|extracting|Fyusion|Eolia|Frelia|Tilia|Orica|Misya|Mule|Luca|Chroche|Cocona|Nenesya|Sonia|Sakia|Finnel|Akane|Rikkaryosya|Mute|Horus|Juklizda|Clyuue|Soreile|Listea|Shelanoir|Deijya|Lere|Saki|Salapator|Soma|Sasya|Hymmnosphere|Filament|Yurishica|Sieryek|Liarsha|AR=TONELICO|INFEL=PHIRA|EL=DUEL|EL=NEMESYS|META=FALSS|SOL=CLUSTER|SOL=MARTA|SOLIN=FALSS|pepen|nyamo|Harvestasya|Myu|hellei|lau|zeez|ad|add|adeal|agan|agga|agldeio|ahjeas|alefio|alroen|alroetyye|amariare|amario|amyure|annie|answa|anturn|araus|arka|asyar|aterra|ates|azit|azl|badoe|bnas|boia|briyua|byui|caan|calamila|ciela|cietta|coall|col|colgen|colmask|coree|corle|corpu|cremia|crown|daf|dahzel|dazua|dea|deadl|dend|dep|dest|deu|dewee|dgal|dha|dialssa|diol|dje|dngle|donaty|dorna|dorre|dorzee|dralee|dyldea|earyq|ede|ekouolga|elna|engua|enllia|ennala|ennalte|envied|eodeal|erlla|erphy|es|esyfo|etealuear|ettdy|ewle|exali|faiy|falfa|fanalea|fao|fari|fatee|fee|ferxs|fetala|fhau|fhauri|firanzia|firga|fitouva|focs|frreie|fujara|fuluaa|fyatomes|gaedurltea|galado|galido|gaunji|gauto|gauv|gefdu|gfine|gfawi|gidiu|giue|giz|gkgula|govan|grandi|grow|grruwa|gyaeje|gyaya|hagol|haliyer|halun|haoud|heathe|hegta|henderos|herea|hiegle|hiral|hiralg|how|hymneth|hyung|iemma|im|infelious|inferia|iqwayes|irdeshen|irea|jastil|jefea|jekur|jenega|jepgle|jesta|json|jue|juelicc|kailya|karf|katalfa|kearryier|kiala|kieghl|kieta|kira|kirrag|kix|kl|koffl|kohiniku|konla|ksyura|kurt|kvvia|kvyeire|kyakkya|kyll|laa|lamenzeo|lasnatine|lautyca|layy|lea|lehaw|lgn|lhasya|liera|lonfa|longhel|longherna|lornya|loss|lulurnya|lyrnya|marfo|marst|meaql|merfa|metafalya|meycray|milra|mirie|missea|mortoa|moy|mutrk|naa|nanarta|nasya|ne|nel|nepsogre|neyxin|nhaf|nnoi|noese|noyme|nor|nuboisu|numori|nun|nyamonyas|nyanyas|nyasyamorina|ocurp|ogbl|olga|omga|omn|omness|omni|odda|ordirga|orn|oter|oylnum|papas|papulipua|parlre|pasherin|pastalia|pauwoo|pawr|pbidia|pisful|piterne|plargamera|polona|poto|pranta|pruna|pshyu|pyuf|qafl|qoga|quale|quals|qvag|qwitte|qym|qyon|rafto|ragym|redjena|reglle|retera|rifaiah|rinc|rinnoze|riura|riya|roon|rooshellan|rovyna|rriulia|ru|ruinien|rum|ryua|ryushe|saade|sacra|sapon|sarryfy|sash|sashel|senjue|sephaje|sguela|sheaken|shefra|shell|shelle|shutdown|shyfac|shyun|siancesta|sii|siss|slepial|so|soare|sorr|sorra|sorrc|spaha|ssvid|stellod|stelo|swantes|syalea|syana|syeary|syearr|syezo|tafane|takii|talfato|tasim|tatakafria|tea|terrfa|terrma|tienar|tilanta|tim|tn|toe|tonelico|tota|toya|trina|trix|ture|twor|tyuss|ubiestobo|ubitio|ubititoe|uje|urdm|urnaa|urrmie|utabi|vaffa|vale|vallne|vamue|vancck|velsog|vew|vezedo|vie|viela|vigiga|viuy|vl|vurumely|waglialre|wasa|wassee|wazx|weaken|weareqye|wefa|wet|whalt|wiaa|wiene|wirtamarls|woth|xactin|xaczor|xava|xevxl|xthos|xorg|yeharr|yesse|yestidi|ylviiyna|yubene|yulun|yurfe|zaarn|zaffur|zahia|zarnn|zas|zayea|zayyo|xinfar|zixxa|zzx)\\b"
     },
     {
-      "name": "keyword.hymmnos.unknown_pastalie_emotion_verbs",
+      "description": "hymmnos.unknown_pastalie_emotion_verbs",
+      "name": "string.quoted.single",
       "match": "\\b((b((LY|Y)?([AIUEON]))?a((LY|Y)?([AIUEON]))?|b((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?|c((LY|Y)?([AIUEON]))?m((LY|Y)?([AIUEON]))?l((LY|Y)?([AIUEON]))?|d((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?g((LY|Y)?([AIUEON]))?|d((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?|d((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?|d((LY|Y)?([AIUEON]))?x((LY|Y)?([AIUEON]))?|f((LY|Y)?([AIUEON]))?p((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?|g((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?g((LY|Y)?([AIUEON]))?|g((LY|Y)?([AIUEON]))?v((LY|Y)?([AIUEON]))?w((LY|Y)?([AIUEON]))?|g((LY|Y)?([AIUEON]))?w((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?|j((LY|Y)?([AIUEON]))?d((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?|k((LY|Y)?([AIUEON]))?f((LY|Y)?([AIUEON]))?k((LY|Y)?([AIUEON]))?k((LY|Y)?([AIUEON]))?|k((LY|Y)?([AIUEON]))?i((LY|Y)?([AIUEON]))?|k((LY|Y)?([AIUEON]))?t((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?|k((LY|Y)?([AIUEON]))?v((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?|l((LY|Y)?([AIUEON]))?k((LY|Y)?([AIUEON]))?k((LY|Y)?([AIUEON]))?|l((LY|Y)?([AIUEON]))?l((LY|Y)?([AIUEON]))?d((LY|Y)?([AIUEON]))?|l((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?w((LY|Y)?([AIUEON]))?|m((LY|Y)?([AIUEON]))?f((LY|Y)?([AIUEON]))?l((LY|Y)?([AIUEON]))?|m((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?|m((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?|m((LY|Y)?([AIUEON]))?v((LY|Y)?([AIUEON]))?y((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?|m((LY|Y)?([AIUEON]))?y((LY|Y)?([AIUEON]))?b((LY|Y)?([AIUEON]))?|n((LY|Y)?([AIUEON]))?d((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?|n((LY|Y)?([AIUEON]))?e((LY|Y)?([AIUEON]))?g((LY|Y)?([AIUEON]))?|n((LY|Y)?([AIUEON]))?i((LY|Y)?([AIUEON]))?|n((LY|Y)?([AIUEON]))?t((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?|n((LY|Y)?([AIUEON]))?y((LY|Y)?([AIUEON]))?g((LY|Y)?([AIUEON]))?t((LY|Y)?([AIUEON]))?|n((LY|Y)?([AIUEON]))?y((LY|Y)?([AIUEON]))?k((LY|Y)?([AIUEON]))?|q((LY|Y)?([AIUEON]))?g((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?|q((LY|Y)?([AIUEON]))?l((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?|r((LY|Y)?([AIUEON]))?l((LY|Y)?([AIUEON]))?t((LY|Y)?([AIUEON]))?y((LY|Y)?([AIUEON]))?|s((LY|Y)?([AIUEON]))?a((LY|Y)?([AIUEON]))?|s((LY|Y)?([AIUEON]))?l((LY|Y)?([AIUEON]))?y((LY|Y)?([AIUEON]))?|s((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?|t((LY|Y)?([AIUEON]))?h((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?|t((LY|Y)?([AIUEON]))?h((LY|Y)?([AIUEON]))?k((LY|Y)?([AIUEON]))?t((LY|Y)?([AIUEON]))?|w((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?g((LY|Y)?([AIUEON]))?|w((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?|w((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?s((LY|Y)?([AIUEON]))?|x((LY|Y)?([AIUEON]))?nohul|x((LY|Y)?([AIUEON]))?v|x((LY|Y)?([AIUEON]))?y((LY|Y)?([AIUEON]))?n((LY|Y)?([AIUEON]))?|y((LY|Y)?([AIUEON]))?g((LY|Y)?([AIUEON]))?l|y((LY|Y)?([AIUEON]))?g((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?r((LY|Y)?([AIUEON]))?|z((LY|Y)?([AIUEON]))?w((LY|Y)?([AIUEON]))?d((LY|Y)?([AIUEON]))?|z((LY|Y)?([AIUEON]))?z((LY|Y)?([AIUEON]))?x((LY|Y)?([AIUEON]))?)(eh|aye|za)?)\\b"
+    },
+    {
+      "description": "other_words(alphabet)",
+      "name": "markup.underline",
+      "match": "(?i)\\b([a-z\\.]+)\\b"
     }
   ],
   "repository": {},
