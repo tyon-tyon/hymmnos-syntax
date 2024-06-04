@@ -25,7 +25,11 @@
         "extensions": [
           ".hym"
         ],
-        "configuration": "./language-configuration.json"
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./images/hymmnos-icon.png",
+          "dark": "./images/hymmnos-icon.png"
+        }
       }
     ],
     "grammars": [
@@ -34,6 +38,18 @@
         "scopeName": "source.hymmnos",
         "path": "./syntaxes/hymmnos.tmLanguage.json"
       }
-    ]
+    ],
+    "icons": {
+      "component-hymmnos": {
+        "description": "Hymmnos file icon",
+        "default": {
+          "fontCharacter": "H",
+          "fontPath": "./images/hymmnos-icon.png",
+          "fontColor": "#6a6ae5",
+          "fontSize": 150,
+          "fontWeight": "normal"
+        }
+      }
+    }
   }
 }
