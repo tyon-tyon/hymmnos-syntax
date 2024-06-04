@@ -1,0 +1,90 @@
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.hymmnos.central_standard",
+        "settings": {
+          "foreground": "#ff4b4b"
+        }
+      },
+      {
+        "scope": "keyword.hymmnos.cult_ciel",
+        "settings": {
+          "foreground": "#4ee74e"
+        }
+      },
+      {
+        "scope": "keyword.hymmnos.metafalss",
+        "settings": {
+          "foreground": "#4dc4ff"
+        }
+      },
+      {
+        "scope": "keyword.hymmnos.alpha",
+        "settings": {
+          "foreground": "#ff6dff"
+        }
+      },
+      {
+        "scope": "keyword.hymmnos.cluster",
+        "settings": {
+          "foreground": "#7a7afd"
+        }
+      },
+      {
+        "scope": "keyword.hymmnos.pastalie",
+        "settings": {
+          "foreground": "#efbc54"
+        }
+      },
+      {
+        "scope": "keyword.hymmnos.pastalie_verbs",
+        "settings": {
+          "foreground": "#efbc54"
+        }
+      },
+      {
+        "scope": "keyword.hymmnos.pastalie_possessive",
+        "settings": {
+          "foreground": "#efbc54"
+        }
+      },
+      {
+        "scope": "keyword.hymmnos.pastalie_emotion_verbs",
+        "settings": {
+          "foreground": "#efbc54"
+        }
+      },
+      {
+        "scope": "keyword.hymmnos.unknown",
+        "settings": {
+          "foreground": "#888888"
+        }
+      },
+      {
+        "scope": "keyword.hymmnos.unknown_command",
+        "settings": {
+          "foreground": "#888888"
+        }
+      },
+      {
+        "scope": "keyword.hymmnos.unknown_pastalie_verbs",
+        "settings": {
+          "foreground": "#888888"
+        }
+      },
+      {
+        "scope": "keyword.hymmnos.unknown_pastalie_possessive",
+        "settings": {
+          "foreground": "#888888"
+        }
+      },
+      {
+        "scope": "keyword.hymmnos.unknown_pastalie_emotion_verbs",
+        "settings": {
+          "foreground": "#888888"
+        }
+      },
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "hymmnos-syntax",
+  "displayName": "hymmnos syntax",
+  "description": "Provides syntax for Hymmnos language in Visual Studio Code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "hymmnos",
+        "aliases": [
+          "Hymmnos",
+          "hymmnos"
+        ],
+        "extensions": [
+          ".hym"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "hymmnos",
+        "scopeName": "source.hymmnos",
+        "path": "./syntaxes/hymmnos.tmLanguage.json"
+      }
+    ]
+  }
+}
