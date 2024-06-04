@@ -3,6 +3,11 @@
   "displayName": "hymmnos syntax",
   "description": "Provides syntax for Hymmnos language in Visual Studio Code.",
   "version": "0.0.1",
+  "publisher": "fau-varda",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tyon-tyon/hymmnos-syntax/issues"
+  },
   "engines": {
     "vscode": "^1.89.0"
   },
